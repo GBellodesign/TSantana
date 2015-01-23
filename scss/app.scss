@@ -38,3 +38,450 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+@font-face {
+    font-family: 'sinkin_sans100_thin';
+    src: url('fonts/sinkinsans_100thin_macroman/SinkinSans-100Thin-webfont.eot');
+    src: url('fonts/sinkinsans_100thin_macroman/SinkinSans-100Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sinkinsans_100thin_macroman/SinkinSans-100Thin-webfont.woff') format('woff'),
+         url('fonts/sinkinsans_100thin_macroman/SinkinSans-100Thin-webfont.ttf') format('truetype'),
+         url('fonts/sinkinsans_100thin_macroman/SinkinSans-100Thin-webfont.svg#sinkin_sans100_thin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'sinkin_sans900_x_black_italic';
+    src: url('fonts/sinkinsans_900xblackitalic_macroman/SinkinSans-900XBlackItalic-webfont.eot');
+    src: url('fonts/sinkinsans_900xblackitalic_macroman/SinkinSans-900XBlackItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sinkinsans_900xblackitalic_macroman/SinkinSans-900XBlackItalic-webfont.woff') format('woff'),
+         url('fonts/sinkinsans_900xblackitalic_macroman/SinkinSans-900XBlackItalic-webfont.ttf') format('truetype'),
+         url('fonts/sinkinsans_900xblackitalic_macroman/SinkinSans-900XBlackItalic-webfont.svg#sinkin_sans900_x_black_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sinkin_sans900_x_black';
+    src: url('fonts/sinkinsans_900xblack_macroman/SinkinSans-900XBlack-webfont.eot');
+    src: url('fonts/sinkinsans_900xblack_macroman/SinkinSans-900XBlack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sinkinsans_900xblack_macroman/SinkinSans-900XBlack-webfont.woff') format('woff'),
+         url('fonts/sinkinsans_900xblack_macroman/SinkinSans-900XBlack-webfont.ttf') format('truetype'),
+         url('fonts/sinkinsans_900xblack_macroman/SinkinSans-900XBlack-webfont.svg#sinkin_sans900_x_black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sinkin_sans700_bold_italic';
+    src: url('fonts/sinkinsans_700bolditalic_macroman/SinkinSans-700BoldItalic-webfont.eot');
+    src: url('fonts/sinkinsans_700bolditalic_macroman/SinkinSans-700BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sinkinsans_700bolditalic_macroman/SinkinSans-700BoldItalic-webfont.woff') format('woff'),
+         url('fonts/sinkinsans_700bolditalic_macroman/SinkinSans-700BoldItalic-webfont.ttf') format('truetype'),
+         url('fonts/sinkinsans_700bolditalic_macroman/SinkinSans-700BoldItalic-webfont.svg#sinkin_sans700_bold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sinkin_sans700_bold';
+    src: url('fonts/sinkinsans_700bold_macroman/SinkinSans-700Bold-webfont.eot');
+    src: url('fonts/sinkinsans_700bold_macroman/SinkinSans-700Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sinkinsans_700bold_macroman/SinkinSans-700Bold-webfont.woff') format('woff'),
+         url('fonts/sinkinsans_700bold_macroman/SinkinSans-700Bold-webfont.ttf') format('truetype'),
+         url('fonts/sinkinsans_700bold_macroman/SinkinSans-700Bold-webfont.svg#sinkin_sans700_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sinkin_sans400_regular';
+    src: url('fonts/sinkinsans_400regular_macroman/SinkinSans-400Regular-webfont.eot');
+    src: url('fonts/sinkinsans_400regular_macroman/SinkinSans-400Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sinkinsans_400regular_macroman/SinkinSans-400Regular-webfont.woff') format('woff'),
+         url('fonts/sinkinsans_400regular_macroman/SinkinSans-400Regular-webfont.ttf') format('truetype'),
+         url('fonts/sinkinsans_400regular_macroman/SinkinSans-400Regular-webfont.svg#sinkin_sans400_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sinkin_sans400_italic';
+    src: url('fonts/sinkinsans_400italic_macroman/SinkinSans-400Italic-webfont.eot');
+    src: url('fonts/sinkinsans_400italic_macroman/SinkinSans-400Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sinkinsans_400italic_macroman/SinkinSans-400Italic-webfont.woff') format('woff'),
+         url('fonts/sinkinsans_400italic_macroman/SinkinSans-400Italic-webfont.ttf') format('truetype'),
+         url('fonts/sinkinsans_400italic_macroman/SinkinSans-400Italic-webfont.svg#sinkin_sans400_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+h1 {
+	font-family: 'sinkin_sans900_x_black_italic' !important;
+}
+
+h2, h6 {
+	font-family: 'sinkin_sans900_x_black' !important;
+}
+
+h3 {
+	font-family: 'sinkin_sans700_bold_italic' !important;
+}
+
+h4 {
+	font-family: 'sinkin_sans700_bold' !important;
+}
+
+h5 {
+	font-family: 'sinkin_sans900_x_black_italic' !important;
+}
+
+
+p, ul, ol{
+	font-family: 'sinkin_sans400_regular' !important;
+}
+
+em{
+	font-family: 'sinkin_sans400_italic' !important;
+}
+
+strong{
+	font-family: 'sinkin_sans700_bold' !important;
+}
+
+em strong {
+    font-family: 'sinkin_sans700_bold_italic' !important;
+}
+
+ul.botonblanco li a, .fontboton {
+    font-family: 'sinkin_sans400_regular' !important;
+    color:#ffffff !important;
+}
+
+iframe {
+	border:none;
+}
+
+.top-bar-section ul.botonmenu li a{
+	font-family: 'sinkin_sans700_bold' !important;
+}
+
+.top-bar-section ul.botonmenu li a:active, .top-bar-section li.active a{
+	box-shadow:inset 0px 0px 10px 5px rgba(0,0,0,0.1);
+}
+
+.imglogosmall{
+	padding-top:15px;
+}
+
+.espacio-superior {
+ 	padding-top:100px;
+}
+
+.size-social {
+  font-size: 50px;
+  line-height: 66px !important;
+  padding: 0.1875rem 0.2rem !important;
+}
+
+.feedburnerFeedBlock,  {
+	font-family: 'sinkin_sans400_regular' !important;
+}
+
+.feedburnerFeedBlock li {
+	list-style: none !important;
+	margin-top: 45px;
+	border-bottom: 1px solid #dddddd !important;
+	padding-bottom: 20px;
+}
+
+.feedburnerFeedBlock .headline {
+	font-family: 'sinkin_sans700_bold' !important;
+	font-size: 1.8rem !important;
+	line-height: 2rem;
+  letter-spacing: -0.08em;
+  margin-bottom: 10px;
+}
+
+#creditfooter{
+  display: none;
+}
+
+.panel {
+	background: rgba(256, 256, 256, .70);
+}
+
+#blog .separator {
+	text-align: left !important;
+}
+
+#blog a {
+	margin-left: 0 !important;
+}
+
+.ligthboxpad {
+	padding-left:10px;
+}
+
+footer {
+	background: url(../img/rebel.png) repeat #333;
+	color: rgb(200, 200, 200);
+	padding-top: 20px;
+}
+
+footer h4{
+  color: #fff;
+}
+
+footer p {
+	line-height: 1rem;
+}
+
+#redes2 li{
+	padding-right:25px;
+}
+
+body {
+	background: url(../img/subtle_dots.png) repeat;
+}
+
+hr{
+	text-align:center;
+	margin:0 auto;
+	opacity:0.5;
+}
+
+ul.inline-list.right{
+	text-transform:none;
+}
+
+ul.inline-list.right a{
+	color:#000;
+}
+
+ul.inline-list.right a:hover{
+	color:rgba(0,0,0,0.5);
+}
+
+h1{
+	font-size:32px;
+	line-height:32px;
+	color:rgba(47, 51, 137, 1);
+	margin-top:16px;
+	margin-bottom:0px;
+	letter-spacing: -0.08em;
+}
+
+h2{
+	color:#fff;
+	font-size:36px;
+	line-height:40px;
+	letter-spacing: -0.08em;
+}
+
+h3{
+	font-size:24px;
+	line-height:26px;
+	font-weight:500;
+	padding-bottom:10px;
+	letter-spacing: -0.08em;
+}
+
+h4{
+	color:#000;
+	font-size:28px;
+	padding-top:5px;
+	letter-spacing: -0.08em;
+}
+
+.columns.large-centered{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+@media only screen and (max-width: 50em) {
+  .columns.large-centered{
+  	font-size:13px;}
+
+  .top-bar-section ul li{
+  	background: rgba(256, 256, 256, 0.9) !important;}
+
+  .top-bar.expanded {
+  margin-top: 100px;}
+  
+  .hero{
+    background-image:url("../img/fondo450px.jpg");
+    }
+
+  .nosotros-bg{
+    background-image:url("../img/nosotros01x600.jpg");
+  }
+
+  .servicios-bg{
+    background-image:url("../img/servicios01x600.jpg");
+  }}
+
+@media only screen and (min-width: 50.063em){
+  .hero{
+    background-image:url("../img/fondo900px.jpg");
+  }
+
+  .nosotros-bg{
+    background-image:url("../img/nosotros01x900.jpg");
+  }
+
+  .servicios-bg{
+    background-image:url("../img/nosotros01x900.jpg");
+  }}
+
+@media only screen and (min-width: 90.063em){
+  .hero{
+      background-image:url("../img/fondo1900px.jpg");
+      padding-bottom: 250px;
+  }
+
+  .nosotros-bg{
+    background-image:url("../img/nosotros01x1900.jpg");
+    padding-bottom: 250px;
+  }
+
+  .servicios-bg{
+    background-image:url("../img/nosotros01x1900.jpg");
+    padding-bottom: 250px;
+  }}
+
+@media only screen and (min-width: 50.063em) {
+  .columns.large-centered{
+    font-size:14px;}
+
+  .top-bar-section ul li{
+	background: none !important;}}
+
+  .about-box{
+    color:#fff;
+  }
+
+  .black-box{
+    background-color:rgba(0,0,0,0.55);
+    padding:35px;
+    font-weight:900;
+    margin-top: 200px;
+  }
+
+  .black-box h2{
+    color: #fff;
+  }
+
+  .black-box p{
+    font-weight:900;
+  }
+
+  .black-box a.secondary.small.button{
+    background-color:transparent;
+    color:#fff;
+    border:2px #fff solid;
+    border-radius:5px;
+    padding:15px 50px 15px 50px;
+    margin:0;}
+
+  .black-box a.secondary.small.button:hover{
+    background-color:rgba(255,255,255,0.5);}
+
+
+  .about-content{
+    background-color:#fff;
+    box-shadow:2px 2px 10px rgba(0,0,0,0.1);
+    min-height: 257px;
+  }
+
+  .slide-content, .slide-content02{
+    box-shadow:2px 2px 10px rgba(0,0,0,0.1);
+  }
+
+  .button-group li .button{
+    border:0!important;}
+
+  .suscripboton.button{
+    -webkit-appearance:none;
+    background-color:transparent;
+    border-width:0;
+    text-align:center;
+    box-shadow:0 0 0;}
+
+  .suscripboton.button:hover{
+    color:rgba(255,255,255,0.7);
+    background-color:transparent;}
+
+  footer p,footer a{
+    font-size:14px;}
+
+  .hero, .nosotros-bg, .servicios-bg{
+    padding-bottom:100px;
+    margin-top:-100px;
+    display: block;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: 50% 0;}
+
+  .hero{
+    background-image:url("../img/fondo1400px.jpg");
+    background-position: 50% 0;}
+
+  .nosotros-bg{
+    background-image:url("../img/nosotros01x1400.jpg");
+    background-position: 50% 100%;
+  }
+
+  .servicios-bg{
+    background-image:url("../img/servicios01x1400.jpg");
+    background-position: 50% 100%;
+  }   
+
+  .hero-content{
+    padding-top:40px;
+    padding-bottom:40px;
+    background-color:rgba(47, 51, 137, 0.3);}
+
+  .panel{
+    margin:40px 0 40px 0;
+    box-shadow:2px 2px 10px rgba(0,0,0,0.2);
+    border:none;background-color:#EAEAEA;}
+
+  .large-4 img{
+    box-shadow:2px 2px 10px rgba(0,0,0,0.1);}
+
+  .radius.right.button{
+    color:#000;border:2px #000 solid;
+    border-radius:5px;
+    padding:15px 50px 15px 50px;
+    margin:0;
+    font-size:0.8125em;}
+
+
+@media only screen and (min-width: 64.063em) {
+  .radius.right.button{
+    color:#000;
+    border:2px #000 solid;
+    border-radius:5px;
+    padding:15px 50px 15px 50px;
+    margin-top:25px;
+    font-size:0.8125em;}}
+
+@media only screen and (min-width: 50.063em) {
+  .radius.right.button{
+    color:#000;
+    border:2px #000 solid;
+    border-radius:5px;
+    padding:15px 50px 15px 50px;
+    margin-top:25px;
+    font-size:0.8125em;}}
+
+.radius.right.button:hover{
+  background-color:rgba(0,0,0,0.1);}
+
+.slide-content.slick-slider button{
+  display: none !important;
+}
